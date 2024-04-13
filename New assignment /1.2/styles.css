@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cc64da;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fde916;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left; 
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .button {
+    background-color: #34a6f3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  h1 {
+    color: #0c0c0c;
+  }
+  
+ 
+  #portfolio {
+    display: none;
+  }
+  
+  #portfolioText,
+  #stockExamples,
+  #bondExamples,
+  #scenario,
+  #optionsForm label,
+  #feedback {
+    text-align: center; 
+  }
+  
+ 
+  #questionContainer {
+    display: none;
+  }
+  
+  #optionsForm {
+    margin-top: 20px;
+  }
+  
+  #optionsForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #optionsForm input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  #feedbackContainer {
+    display: none;
+    margin-top: 20px;
+  }
+  
